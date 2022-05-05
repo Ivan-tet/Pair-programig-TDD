@@ -1,0 +1,20 @@
+
+import unittest
+
+class Test:
+
+    def int_max (a, b):
+        if  a > b:
+             return a
+        else: 
+            return b
+         
+    def int_min (a, b):        
+        if a > b:
+            return b
+        else:
+            return a
+        
+    def bool_isPositive(a): 
+        return(bool(a>=0))
+      
